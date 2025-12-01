@@ -5,7 +5,7 @@ from bson.objectid import ObjectId
 
 # client = MongitaClientDisk()
 try:
-  client = pymongo.MongoClient("mongodb+srv://supervisor:supervisor123@cluster0.agji2kq.mongodb.net/?appName=Cluster0")
+  client = pymongo.MongoClient("mongodb+srv://greg:gregory123@cluster0.agji2kq.mongodb.net/?appName=Cluster0")
   
 # return a friendly error if a URI error is thrown 
 except pymongo.errors.ConfigurationError:
